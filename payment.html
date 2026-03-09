@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="payment-box">
+
+<h2>Payment</h2>
+
+<div class="pricebox">
+
+<p>Product Price ₹999</p>
+<p>Coupon FIRST1ST -₹299</p>
+
+<h3>Total ₹699</h3>
+
+</div>
+
+<h3>Select Payment Method</h3>
+
+<div class="methods">
+
+<div class="upi active">UPI</div>
+<div class="disabled">Cards (Unavailable)</div>
+<div class="disabled">Cash on Delivery (Unavailable)</div>
+
+</div>
+
+<img src="images/qr.jpg" class="qr">
+
+<p class="info">
+Scan this QR using any UPI app and pay ₹699
+</p>
+
+<input placeholder="Paste Transaction ID">
+
+<button class="buy"
+onclick="confirmOrder()">
+Confirm Payment
+</button>
+
+<a class="whatsapp"
+href="https://wa.me/9177590100650">
+
+Order via WhatsApp
+
+</a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
