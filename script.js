@@ -4,13 +4,11 @@ let pin=document.getElementById("pin").value
 
 if(pin.length==6){
 
-document.getElementById("pinmsg")
-.innerText="Delivery Available"
+document.getElementById("pinmsg").innerText="Delivery Available"
 
 }else{
 
-document.getElementById("pinmsg")
-.innerText="Invalid Pincode"
+document.getElementById("pinmsg").innerText="Invalid Pincode"
 
 }
 
@@ -21,7 +19,9 @@ function buyNow(){
 document.body.classList.add("loading")
 
 setTimeout(()=>{
+
 location.href="address.html"
+
 },1000)
 
 }
@@ -29,7 +29,9 @@ location.href="address.html"
 function confirmOrder(){
 
 setTimeout(()=>{
+
 location.href="success.html"
+
 },2000)
 
 }
